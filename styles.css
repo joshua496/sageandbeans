@@ -45,12 +45,16 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-
     padding: 10px;
   }
+  
   .grid-item {
-    padding: 20px;
-    border: 1px solid #ddd;
-    text-align: center;
+    padding: 5px;
+    border: 3px solid #007e00;
+    color:black;
+    text-align: center;   
+   
   }
+
+
   
