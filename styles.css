@@ -1,11 +1,11 @@
-body{
-    background-image: url(images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+body {
+    background-color:white;
+    color: black;
 }
+
 .navbar {
     overflow: hidden;
+    background-color: #007e00;
 }
 
 .navbar a {
@@ -25,7 +25,7 @@ body{
     display: block;
     width: 0;
     height: 2px;
-    background-color: white;
+    background-color: yellow;
     transition: width 0.3s;
 }
 
@@ -35,5 +35,5 @@ body{
 
 .navbar a:hover {
     background-color: transparent;
-    color: white;
+    color: yellow;
 }
