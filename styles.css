@@ -59,5 +59,24 @@ body {
     text-align: justify;
   }
 
+  .contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+
+  .contacts div {
+    overflow: hidden; /* Ensure content does not overflow */
+    border-radius: 50%; /* Make it circular */
+    margin: 0; /* Remove default margins */
+  }
+
+  .contacts img {
+    width: 100%; /* Ensure the image takes the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline display */
+  }
+
 
   
