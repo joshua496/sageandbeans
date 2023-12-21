@@ -1,0 +1,9 @@
+.navbar ul{
+    list-style: none;
+    background-color: hsl(0,0%, 25%);
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
