@@ -78,20 +78,20 @@ body {
     text-align: justify;
   }
 
-  .contacts {
+  .dev {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 10px;
   }
 
-  .contacts div {
+  .dev div {
     overflow: hidden; 
     border-radius: 50%; 
     margin: 0; 
   }
 
-  .contacts img {
+  .dev img {
     width: 100%; 
     height: auto; 
     display: block; 
