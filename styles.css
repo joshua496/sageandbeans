@@ -11,11 +11,14 @@ body {
     overflow: hidden;
     background-color: #007e00;
 }
-
+.navbar p{
+  color: white;
+}
+.logo p{
+ text-align: center;
+}
 .navbar a {
-    position: sticky;
-    float: left;
-    display: block;
+    float:left;
     color: white;
     text-align: center;
     padding: 8px;
