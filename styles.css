@@ -2,8 +2,8 @@ h1{
     text-align: center;
 }
 body {
-    background-image: url(images/background.png);
-    color: white;
+  background-color: #cbd5c0;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -42,20 +42,46 @@ body {
     color: yellow;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 10px;
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .home{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/background.png);
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value (0.5) for the desired opacity */
+  padding: 20px;
+  border-radius: 10px;
+   text-align: center;
   }
 
-  .grid-item {
-    padding: 5px;
-    border: 3px solid #007e00;
-    color:white;
-    text-align: center;   
-   
+
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    transition: 0.3s;
+    background-color: #9caf88;
   }
+  
+  .card h2 {
+    color: #333;
+  }
+  
+  .card p {
+    color: black;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  
   .info{
     text-align: justify;
   }
@@ -68,16 +94,17 @@ body {
   }
 
   .contacts div {
-    overflow: hidden; /* Ensure content does not overflow */
-    border-radius: 50%; /* Make it circular */
-    margin: 0; /* Remove default margins */
+    overflow: hidden; 
+    border-radius: 50%; 
+    margin: 0; 
   }
 
   .contacts img {
-    width: 100%; /* Ensure the image takes the full width of the container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove default inline display */
+    width: 100%; 
+    height: auto; 
+    display: block; 
   }
+  
 
 
   
