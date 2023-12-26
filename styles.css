@@ -103,6 +103,7 @@ body {
     border:5px solid;
     height: 600px;
     color:rgb(255, 232, 232);
+    
   }
   #About p{
     
@@ -111,13 +112,37 @@ body {
   #About h1{
     padding-top:220px;
     text-align: center;
+    
   }
-  .single_advisor_profile .advisor_thumb img{
-    height: 300px;
-    width: auto;
+  #Contacts h1{
+    text-align: center;
   }
-   
+  #Contacts{
+    background-color: #5d704b;
+  }
+  .contacts{
+    box-sizing: border-box;
+    background-color: #849772;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+   .profile{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    transition: 0.3s;
+    background-color: #9caf88;
+   }
   
-
-
+   .profile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.profile img{
+  height: 250px;
+  border-radius: 50%; 
+}
   
