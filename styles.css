@@ -1,6 +1,4 @@
-h1{
-    text-align: center;
-}
+
 body {
   background-color: #cbd5c0;
     color: black;
@@ -9,7 +7,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #007e00;
+    background-color: #718a33;
 }
 .navbar p{
   color: white;
@@ -44,13 +42,39 @@ body {
     background-color: transparent;
     color: yellow;
 }
+.name{
+  
+  background-color:#81917157;
+  height: 520px;
+  width: 100vw;
+}
 
+
+.name img{
+  float:left;
+  display: flex;
+  padding-right:0;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 490px;
+  width: auto;
+}
+.name p{
+  text-align: center;
+}
+.name h1{
+ padding-top: 240px;
+ text-align: center;
+}
   .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1200px;
     margin: 20px auto;
+  }
+  #Products h1{
+    text-align: center;
   }
   .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -92,6 +116,7 @@ body {
   }
 
   .dev img {
+    position: absolute;
     width: 100%; 
     height: auto; 
     display: block; 
