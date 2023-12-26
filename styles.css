@@ -49,17 +49,6 @@ body {
     max-width: 1200px;
     margin: 20px auto;
   }
-  .home{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(images/background.png);
-  background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value (0.5) for the desired opacity */
-  padding: 20px;
-  border-radius: 10px;
-   text-align: center;
-  }
-
-
   .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -104,7 +93,9 @@ body {
     height: auto; 
     display: block; 
   }
-  
+  #About{
+    text-align: absolute;
+  }
 
 
   
