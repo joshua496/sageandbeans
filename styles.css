@@ -1,13 +1,27 @@
-
 body {
   background-color: #cbd5c0;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+p {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
 .navbar {
-    overflow: hidden;
-    background-color: #718a33;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #708a32;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
 }
 .navbar p{
   color: white;
@@ -42,13 +56,13 @@ body {
     background-color: transparent;
     color: yellow;
 }
+
 .name{
   
   background-color:#81917157;
   height: 520px;
   width: 100vw;
 }
-
 
 .name img{
   float:left;
@@ -58,6 +72,21 @@ body {
   padding-left: 20px;
   height: 490px;
   width: auto;
+}
+.row-heading
+{
+  font-size:1.3rem;
+  font-weight:bold;
+}
+.total
+{
+  font-size:2rem;
+  font-weight:bold;
+}
+.total-val
+{
+  font-size:2rem;
+
 }
 .name p{
   text-align: center;
@@ -84,6 +113,7 @@ body {
     width: 250px;
     transition: 0.3s;
     background-color: #9caf88;
+    position: static;
   }
   
   .card h2 {
