@@ -96,34 +96,28 @@ body {
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-
-  
-  .info{
-    text-align: justify;
-  }
-
-  .dev {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 10px;
-  }
-
-  .dev div {
-    overflow: hidden; 
-    border-radius: 50%; 
-    margin: 0; 
-  }
-
-  .dev img {
-    position: absolute;
-    width: 100%; 
-    height: auto; 
-    display: block; 
-  }
   #About{
-    text-align: absolute;
+    background-image: url(images/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:5px solid;
+    height: 600px;
+    color:rgb(255, 232, 232);
   }
+  #About p{
+    
+    text-align: center;
+  }
+  #About h1{
+    padding-top:220px;
+    text-align: center;
+  }
+  .single_advisor_profile .advisor_thumb img{
+    height: 300px;
+    width: auto;
+  }
+   
+  
 
 
   
