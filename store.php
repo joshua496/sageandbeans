@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Transaction</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Transaction</title>
+  <!--CSS link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap');
+      </style>
+</head>
+<body>
     </head>
 <body>
     
@@ -13,14 +24,25 @@ foreach ($values as $price){
     $bill = $price * $quantity;
     $payment = $_POST['cpay'];
     $change= $payment - $bill;
-    echo $change . "<br>";
     
     if($bill>1000){
-        echo "Good Sale" . $bill;
+        $status= "Good Sale";
     }else{
-        echo "Bad Sale ". $bill;
+         $status= "Bad Sale";
     }
 }
 ?>
+<div class="card-container">
+        
+        <div class="card">
+       <h2>Thank you for Purchasing</h2>
+       <img src="images/cat.gif">
+       <!-- insert lang ang bill diri-->
+       <p>Your Total Bill is: </p>
+       <!-- insert lang ang Change diri-->
+       <p>Your Change is: </p>
+        <!-- insert lang ang status diri-->
+       <p>Sale Status:</p>
+        </div>
 </body>
 </html>
