@@ -43,7 +43,8 @@ foreach ($values as $price){
        <p>Your Change is: </p>
         <!-- insert lang ang status diri-->
        <p>Sale Status:</p>
+       <a href="store.html">Back To The Store</a>
         </div>
-        <a href="store.html">Back To The Store</a>
+        
 </body>
 </html>
