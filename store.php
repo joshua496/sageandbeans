@@ -36,7 +36,7 @@ foreach ($values as $price){
         
         <div class="card">
        <h2>Thank you for Purchasing</h2>
-       <img src="images/cat.gif">
+       <img src="images/cat.jpg">
        <!-- insert lang ang bill diri-->
        <p>Your Total Bill is: </p>
        <!-- insert lang ang Change diri-->

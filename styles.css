@@ -187,18 +187,14 @@ nav a:hover {
   height: 250px;
   border-radius: 50%; 
 }
-.form p {
-  text-align: justify;
-  
- 
-}
+
 select,option{
   text-align: center;
  
 }
-.form input{
- float: right;
+.form {
+ text-align: center;
 }
-a{
-  text-decoration: none;
+.form label{
+  text-align: center;
 }

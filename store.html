@@ -55,18 +55,21 @@
           <p>₱ 70.00</p>
         </div>
   </main>
-<form action="store.php" method="POST" class="form"> 
+  <div class="form">
+    <form action="store.php" method="POST">
     <h3><p><label for="lang">Select your Coffee:</label>
-      <span></span><select class="form-control" name="coffees[]" id="cafe"></span>
+      <p><select class="form-control" name="coffees[]" id="cafe"></p>
       <option value="150" name="coffeebeans">Coffe Beans</option>
       <option value="80" name="espresso">Espresso</option>
       <option value="95" name="cappuccino">Cappuccino</option>
       <option value="70" name="icedcoffee">Iced Coffee</option>
     </select>
     </p></h3>
-<h3><p>Enter how much you want: <input type="number" name="cquan"></p></h3>
-<h3><p>Enter Payment: ₱<input type="number" name="cpay"></p></h3>
+    <p><label class="sr-only">Enter how much you want: </label><input type="number" name="cquan" ></p>
+    <p><label>Enter Payment: ₱</label><input type="number" name="cpay" ></p>
 <br><br>
-<p><input type="submit" class="btn btn-success" value="SUBMIT"></p>
+<p><input type="submit"  class="btn btn-success" value="SUBMIT"></p>
+  </div>
 </body>
+</form>
 </html>
