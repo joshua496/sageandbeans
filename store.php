@@ -44,5 +44,6 @@ foreach ($values as $price){
         <!-- insert lang ang status diri-->
        <p>Sale Status:</p>
         </div>
+        <a href="store.html">Back To The Store</a>
 </body>
 </html>
