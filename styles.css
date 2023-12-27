@@ -64,7 +64,7 @@ nav a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
-  opacity: 0.65;
+  opacity: 0.5;
 }
 
 .row-heading
@@ -198,4 +198,7 @@ select,option{
 }
 .form input{
  float: right;
+}
+a{
+  text-decoration: none;
 }
