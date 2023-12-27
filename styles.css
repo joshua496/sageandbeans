@@ -12,67 +12,42 @@ h2 {
 h4 {
   text-align: center;
 }
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #708a32;
-  position: fixed;
-  top: 0;
-  width: 100%;
-
-}
-.navbar p{
-  color: white;
-}
-.logo p{
- text-align: center;
-}
-.navbar a {
-    float:left;
-    color: white;
-    text-align: center;
-    padding: 8px;
-    padding-bottom: 3px;
-    margin: 10px;
-    text-decoration: none;
+nav{
+  position:fixed;
+  align-items: center;
+  text-align: center;
+  background-color: #849772;
 }
 
-.navbar a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: yellow;
-    transition: width 0.3s;
-}
 
-.navbar a:hover::after {
-    width: 100%;
-}
 
-.navbar a:hover {
-    background-color: transparent;
-    color: yellow;
-}
+
 
 .name{
-  
+  display:grid;
+  box-sizing: border-box;
   background-color:#81917157;
-  height: 520px;
+  height: 500px;
   width: 100vw;
+  background: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  place-content: center;
+  position: relative;
+  isolation: isolate;
+  
+}
+.name::after{
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.65;
 }
 
-.name img{
-  float:left;
-  display: flex;
-  padding-right:0;
-  padding-top: 20px;
-  padding-left: 20px;
-  height: 490px;
-  width: auto;
-}
 .row-heading
 {
   font-size:1.3rem;
@@ -90,9 +65,11 @@ h4 {
 }
 .name p{
   text-align: center;
+  color:white;
 }
 .name h1{
- padding-top: 240px;
+  color:white;
+ padding-top: 20px;
  text-align: center;
 }
   .card-container {
