@@ -8,9 +8,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $quantity= $_POST['cquan'];
         $payment= $_POST['cpay'];
         $selectedProduct =$_POST['coffee'];
-        echo "Your Product is: " . $selectedProduct;
+        echo  $price;
         $bill=$quantity*$price;
-        echo "Your Product is: " . $bill;
+        echo   $bill;
     }
 }
 ?>
