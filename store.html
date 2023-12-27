@@ -18,20 +18,13 @@
     crossorigin="anonymous"></script>
 
   <header>
-    <nav class="navbar">
-      <a class="navbar-brand" href="#Home">
-        <img src="images/logo.png" width="40px" height="40px" class="d-inline-block align-top" alt="">
-        Sage & Beans cafe
+    <nav class="store">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" width="100px" height="100px" class="d-inline-block align-top" alt="">
+       <p>Sage & Beans cafe</p>
       </a>
       </div>
-      <ul>
-        <a href="index.html">Home</a>
-        <a href="index1.html">Shop</a>
-        <a href="index.html">Products</a>
-        <a href="index.html">About Us</a>
-        <a href="index.html">Contacts</a>
-      </ul>
-    </nav>
+
   </header>
   <main>
     <div class="card-container">
@@ -60,9 +53,9 @@
           <p>₱ 49.00</p>
         </div>
   </main>
-<form action="index.php" method="POST"> 
+<form action="store.php" method="POST" class="form"> 
     <h3><p><label for="lang">Select your Coffee:</label>
-    <select name="coffees[]" id="cafe">
+      <span></span><select class="form-control" name="coffees[]" id="cafe"></span>
       <option value="90" name="coffeebeans">Coffe Beans</option>
       <option value="60" name="espresso">Espresso</option>
       <option value="56" name="cappuccino">Cappuccino</option>

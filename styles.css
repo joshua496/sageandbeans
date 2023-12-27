@@ -101,6 +101,7 @@ nav a:hover {
   #Products h1{
     text-align: center;
   }
+  
   .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -171,4 +172,15 @@ nav a:hover {
   height: 250px;
   border-radius: 50%; 
 }
+.form p {
+  text-align: justify;
   
+ 
+}
+select,option{
+  text-align: center;
+ 
+}
+.form input{
+ float: right;
+}
