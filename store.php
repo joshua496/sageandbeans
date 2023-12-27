@@ -9,5 +9,10 @@ foreach ($values as $price){
     $payment = $_POST['cpay'];
     $change= $payment - $bill;
     echo $change;
+    if($change>10000){
+        echo "Good Sale";
+    }else{
+        echo "Bad Sale". $change;
+    }
 }
 ?>
