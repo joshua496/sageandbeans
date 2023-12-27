@@ -38,9 +38,9 @@ foreach ($values as $price){
        <h2>Thank you for Purchasing</h2>
        <img src="images/cat.jpg">
        <!-- insert lang ang bill diri-->
-       <p>Your Total Bill is: <?php echo $bill ?></p>
+       <p>Your Total Bill is: ₱<?php echo $bill ?></p>
        <!-- insert lang ang Change diri-->
-       <p>Your Change is: <?php echo $change ?></p>
+       <p>Your Change is: ₱<?php echo $change ?></p>
         <!-- insert lang ang status diri-->
        <p>Sale Status: <?php echo $status ?></p>
        <p><a href="store.html">Back To The Store</a></p>
