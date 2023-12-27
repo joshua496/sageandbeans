@@ -5,9 +5,10 @@ $values = $_POST['coffees'];
 $quantity = $_POST['cquan'];
 $payment =$_POST['cpay'];
 foreach ($values as $product){
-   
-    $bill = $product * $quantity;
-    $change= $payment- $bill;
-    echo $change;
+    return;
 }
+$bill = $product * $quantity;
+    $change= $payment - $bill;
+    echo "Your Change is:"  .$change.;
+
 ?>
