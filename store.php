@@ -25,12 +25,6 @@ foreach ($values as $price){
     $payment = $_POST['cpay'];
     $change= $payment - $bill;
 
-    if ($payment<$bill){
-        $announce= "Your Payment is not enough!";
-    }
-    else {
-        $announce= "Thank you for purchasing";
-    }
     if($bill>1000){
         $status= "Good Sale";
     }
@@ -42,8 +36,21 @@ foreach ($values as $price){
 <div class="card-container">
         
        <div class="card">
-       <h2><?php $announce ?></h2>
-       <img src="images/cat.jpg">
+       <h2><?php
+       if ($payment>$bill){
+        echo "Thank you for your purchase!";
+       }
+       else {
+        echo "Your Payment is not enough!";
+       }
+       ?></h2><?php
+       if ($payment>$bill){
+        echo '<img src="images/cat.jpg">';
+       }
+       else{
+        echo '<img src="images/mike.jpg">';
+       }
+       ?>
        <!-- insert lang ang bill diri-->
        <p>Your Total Bill is: ₱<?php echo $bill ?></p>
        <!--insert lang ang payment diri-->
